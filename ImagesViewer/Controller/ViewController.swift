@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController ,UITableViewDelegate,UITableViewDataSource{
 var imagesDetail = [ImagesDetail]()
+    let alertService = AlertServices()
     let networkingService = NetworkingService.shared
     @IBOutlet weak var tableView: UITableView!
     override func viewDidLoad() {
@@ -56,6 +57,9 @@ var imagesDetail = [ImagesDetail]()
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         print("selected row \(indexPath)")
+        let imagedetail = imagesDetail[indexPath.row]
+        let alertVC = alertService.alert(body: "id for the image is \(imagedetail.id) and author name \(imagedetail.author)")
+        present(alertVC,animated: true)
     }
 }
 

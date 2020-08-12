@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5EF52D9324E40EDF005079DB /* AlertStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EF52D9224E40EDF005079DB /* AlertStoryboard.storyboard */; };
+		5EF52D9524E40F33005079DB /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF52D9424E40F33005079DB /* AlertViewController.swift */; };
+		5EF52D9724E41578005079DB /* AlertService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF52D9624E41578005079DB /* AlertService.swift */; };
 		5EF7439924E2A05800DE827A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF7439824E2A05800DE827A /* AppDelegate.swift */; };
 		5EF7439B24E2A05800DE827A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF7439A24E2A05800DE827A /* ViewController.swift */; };
 		5EF7439E24E2A05800DE827A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EF7439C24E2A05800DE827A /* Main.storyboard */; };
@@ -23,6 +26,9 @@
 /* Begin PBXFileReference section */
 		1002E329FD8C6D399DF86700 /* Pods_ImagesViewer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImagesViewer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		29193B52D922DBB966E84A39 /* Pods-ImagesViewer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImagesViewer.debug.xcconfig"; path = "Target Support Files/Pods-ImagesViewer/Pods-ImagesViewer.debug.xcconfig"; sourceTree = "<group>"; };
+		5EF52D9224E40EDF005079DB /* AlertStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AlertStoryboard.storyboard; sourceTree = "<group>"; };
+		5EF52D9424E40F33005079DB /* AlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
+		5EF52D9624E41578005079DB /* AlertService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertService.swift; sourceTree = "<group>"; };
 		5EF7439524E2A05800DE827A /* ImagesViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImagesViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EF7439824E2A05800DE827A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5EF7439A24E2A05800DE827A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -90,6 +96,7 @@
 				5EF7439A24E2A05800DE827A /* ViewController.swift */,
 				5EF743AA24E2ADBD00DE827A /* SplashNavigation.swift */,
 				5EF743B224E2F45900DE827A /* CustomTableViewCell.swift */,
+				5EF52D9424E40F33005079DB /* AlertViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -99,6 +106,7 @@
 			children = (
 				5EF7439C24E2A05800DE827A /* Main.storyboard */,
 				5EF743B324E2F45900DE827A /* CustomTableViewCell.xib */,
+				5EF52D9224E40EDF005079DB /* AlertStoryboard.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -108,6 +116,7 @@
 			children = (
 				5EF743AE24E2BCF700DE827A /* ImagesDetail.swift */,
 				5EF743B024E2BDDB00DE827A /* NetworkingServices.swift */,
+				5EF52D9624E41578005079DB /* AlertService.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -207,6 +216,7 @@
 				5EF743A024E2A05E00DE827A /* Assets.xcassets in Resources */,
 				5EF743B524E2F45900DE827A /* CustomTableViewCell.xib in Resources */,
 				5EF7439E24E2A05800DE827A /* Main.storyboard in Resources */,
+				5EF52D9324E40EDF005079DB /* AlertStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,10 +270,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				5EF7439B24E2A05800DE827A /* ViewController.swift in Sources */,
+				5EF52D9524E40F33005079DB /* AlertViewController.swift in Sources */,
 				5EF743AB24E2ADBD00DE827A /* SplashNavigation.swift in Sources */,
 				5EF743B424E2F45900DE827A /* CustomTableViewCell.swift in Sources */,
 				5EF743AF24E2BCF700DE827A /* ImagesDetail.swift in Sources */,
 				5EF7439924E2A05800DE827A /* AppDelegate.swift in Sources */,
+				5EF52D9724E41578005079DB /* AlertService.swift in Sources */,
 				5EF743B124E2BDDB00DE827A /* NetworkingServices.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
